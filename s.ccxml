@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+<instance XML_version="1.2" desc="C64xx CPU Cycle Accurate Simulator, Little Endian" href="configurations/tisim_c64xxle_ca.xml" id="C64xx CPU Cycle Accurate Simulator, Little Endian" xml="tisim_c64xxle_ca.xml" xmlpath="configurations"/>
+    <configuration XML_version="1.2" description="Simulates the C64xx core in a cycle accurate manner. Supports a flat memory system. Does not model the cache system and any peripherals. This is faster than the device level configurations. Use this configuration for core level algorithm development and benchmarking for any C64x based device. &#10; Note on other configurations available for this processor: &#10; * A high speed version of the C64xx CPU simulator called &quot;C64xx CPU Cycle Accurate Compiled Simulator&quot; exists in the &quot;General Setup&quot;. Check out the super fast simulation of the C64x core using this configuration, but watch out for some advanced debug and analsyis features not being supported. &#10; * Use the device configurations for application development at the device level." id="C64xx CPU Cycle Accurate Simulator, Little Endian">
+        <connection XML_version="1.2" desc="C64xx CPU Cycle Accurate Simulator, Little Endian_0" id="C64xx CPU Cycle Accurate Simulator, Little Endian"/>
+    </configuration>
+</configurations>
